@@ -707,3 +707,27 @@ a {
   background-color: var(--primary-white-color);
   cursor: pointer;
 }
+
+/* Форма */
+
+.common-form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 40px;
+}
+
+.title-form {
+  display: block;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.field:not(:last-child) {
+  margin-bottom: 10px;
+}
